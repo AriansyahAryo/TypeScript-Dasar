@@ -1,0 +1,22 @@
+Kasus Tugas: Manajemen Data Pengguna
+
+Anda diminta untuk membuat sebuah program TypeScript untuk manajemen data pengguna. Program ini akan mencakup penggunaan jenis variabel, array, function, dan class.
+
+Variabel TypeScript:
+
+Buat variabel userName dengan tipe data string dan beri nilai dengan nama anda sendiri.Buat variabel userAge dengan tipe data number dan beri nilai 40.Buat variabel isActive dengan tipe data boolean dan beri nilai true.Buat variabel userData dengan tipe data any dan beri nilai objek sederhana, misalnya { email politala anda: "joko@politala.ac.id" }.
+Array TypeScript:
+
+Buat sebuah array userList yang akan digunakan untuk menyimpan data pengguna.Tambahkan beberapa objek pengguna ke dalam array tersebut, misalnya:
+typescript
+
+{ name: "Alice", age: 25, isActive: true },
+{ name: "Bob", age: 35, isActive: false }
+
+Hapus salah satu pengguna dari array.
+Function TypeScript:
+
+Buat sebuah fungsi getUserInfo yang menerima tiga parameter: name (string), age (number), dan active (boolean).Fungsi ini akan mengembalikan sebuah objek dengan properti name, age, dan isActive berdasarkan parameter yang diberikan.
+Class TypeScript:
+
+Buat sebuah class User yang memiliki properti name, age, dan isActive.Buat metode greet dalam class User yang mengembalikan pesan sapaan berdasarkan nama pengguna.Buat objek dari class User untuk pengguna dengan nama "Eve", usia 28, dan status aktif.
