@@ -1,24 +1,27 @@
-// Variabel TypeScript
+// Pendaklarasian diVariabel TS
 let userName: string = 'Ariansyah Aryo Prasetio';
 let userAge: number = 40;
 let isActive: boolean = true;
 let userData: any = { email: 'ariansyah.aryo.prasetio@politala.ac.id' };
 
-// Array TypeScript
+// Ini Buat Array TS
 let userList: { name: string; age: number; isActive: boolean }[] = [
   { name: 'Alice', age: 25, isActive: true },
   { name: 'Bob', age: 35, isActive: false },
+  { name: 'ryo', age: 15, isActive: true },
 ];
 
 // Hapus salah satu pengguna dari array
-userList.splice(0, 1); // Menghapus pengguna pertama (Alice)
+userList.splice(0, 1);
+// Menghapus pengguna pertama Alice
+//dan array ryo tetep ada cuman alice yg ilang
 
-// Function TypeScript
+// Fungsi TS
 function getUserInfo(name: string, age: number, active: boolean) {
   return { name, age, isActive: active };
 }
 
-// Class TypeScript
+// OOP TS
 class User {
   name: string;
   age: number;
@@ -30,12 +33,11 @@ class User {
     this.isActive = isActive;
   }
 
-  greet() {
-    return `Halo, nama saya ${this.name}`;
+  greet(greeting: string) {
+    return `${greeting}, nama saya ${this.name}`;
   }
 }
 
-// Buat objek dari class User
 const userEve = new User('Eve', 28, true);
 
 console.log(userName);
@@ -43,5 +45,4 @@ console.log(userAge);
 console.log(isActive);
 console.log(userData);
 console.log(userList);
-console.log(getUserInfo('John', 45, true));
-console.log(userEve.greet());
+console.log(userEve.greet('Halo'));
