@@ -1,14 +1,12 @@
-var Orang = /** @class */ (function () {
-    function Orang() {
-    }
-    Orang.prototype.getName = function () {
+"use strict";
+class Orang {
+    getName() {
         return this.name;
-    };
-    Orang.prototype.setName = function (name) {
+    }
+    setName(name) {
         this.name = name;
-    };
-    return Orang;
-}());
-var mhs = new Orang();
+    }
+}
+const mhs = new Orang();
 mhs.setName('Bowo');
 console.log('namanya dia adalah ' + mhs.getName());

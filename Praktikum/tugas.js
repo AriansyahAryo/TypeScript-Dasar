@@ -1,10 +1,11 @@
+"use strict";
 // Pendaklarasian diVariabel TS
-var userName = 'Ariansyah Aryo Prasetio';
-var userAge = 40;
-var isActive = true;
-var userData = { email: 'ariansyah.aryo.prasetio@politala.ac.id' };
+let userName = 'Ariansyah Aryo Prasetio';
+let userAge = 40;
+let isActive = true;
+let userData = { email: 'ariansyah.aryo.prasetio@politala.ac.id' };
 // Ini Buat Array TS
-var userList = [
+let userList = [
     { name: 'Alice', age: 25, isActive: true },
     { name: 'Bob', age: 35, isActive: false },
     { name: 'ryo', age: 15, isActive: true },
@@ -15,21 +16,20 @@ userList.splice(0, 1);
 //dan array ryo tetep ada cuman alice yg ilang
 // Fungsi TS
 function getUserInfo(name, age, active) {
-    return { name: name, age: age, isActive: active };
+    return { name, age, isActive: active };
 }
 // OOP TS
-var User = /** @class */ (function () {
-    function User(name, age, isActive) {
+class User {
+    constructor(name, age, isActive) {
         this.name = name;
         this.age = age;
         this.isActive = isActive;
     }
-    User.prototype.greet = function (greeting) {
-        return "".concat(greeting, ", nama saya ").concat(this.name);
-    };
-    return User;
-}());
-var userEve = new User('Eve', 28, true);
+    greet(greeting) {
+        return `${greeting}, nama saya ${this.name}`;
+    }
+}
+const userEve = new User('Eve', 28, true);
 console.log(userName);
 console.log(userAge);
 console.log(isActive);
