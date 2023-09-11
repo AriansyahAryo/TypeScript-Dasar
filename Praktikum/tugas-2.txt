@@ -1,0 +1,10 @@
+Kasus: Sistem Peminjaman Perpustakaan
+Deskripsi:
+Kita akan membuat sistem peminjaman perpustakaan sederhana yang memungkinkan pengguna (mahasiswa) untuk meminjam dan mengembalikan buku dari perpustakaan.
+Instruksi:
+1. Buatlah kelas "Buku" yang memiliki atribut seperti judul buku, pengarang, dan status ketersediaan (dalam atau tidak).
+2. Buatlah kelas "Mahasiswa" yang memiliki atribut seperti nama, NIM, dan daftar buku yang dipinjam.
+3. Implementasikan metode dalam kelas "Mahasiswa" untuk meminjam buku, mengembalikan buku, dan menampilkan daftar buku yang dipinjam.
+4. Buatlah objek buku dan objek mahasiswa, dan lakukan operasi peminjaman dan pengembalian buku.
+
+Kumpulkan dalam bentuk sebuah file pinjambuku.tsc

@@ -1,20 +1,21 @@
-var halo = 'Heloo World';
+"use strict";
+let halo = 'Heloo World';
 console.log(halo);
-var angka = 71615353;
-console.log({ angka: angka });
-var buleannn = true;
-console.log({ buleannn: buleannn });
-var iniBool = false;
+let angka = 71615353;
+console.log({ angka });
+let buleannn = true;
+console.log({ buleannn });
+let iniBool = false;
 console.log(iniBool);
 // array biasa
-var anime;
+let anime;
 anime = ['wanpis', 'nardog', 'pemutih'];
 console.log(anime);
-var mangaCh;
+let mangaCh;
 mangaCh = [1019, 876, 28];
-console.log({ mangaCh: mangaCh });
+console.log({ mangaCh });
 // tuple array
-var OnePis;
+let OnePis;
 OnePis = ['On-going', 1080, true];
 console.log(OnePis);
 // Function
